@@ -1,0 +1,346 @@
+<style>
+  :root{
+  --main-color:#0A8ECB;
+  --seconde-color:#FFB82F;
+  --text-color:#555;
+  --link-color:#4671AA;
+}
+
+*{
+  font-family: 'Tajawal', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.address i {
+  color: #0A8ECB;
+}
+i {
+  margin: 0 5px;
+  font-size: 20px;
+  color: black;
+}
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(204,204,204);
+}
+.page {
+  box-sizing: border-box;
+  background: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  padding: 0;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  position: relative;
+  overflow: hidden;
+  border-top: #0A8ECB solid .4cm ;
+  border-bottom: #0A8ECB solid .6cm ;
+}
+@media print {
+  .page {
+    margin: 0;
+    box-shadow: 0;
+  }
+
+
+/* // HEADER // */
+.page header {
+  position: relative;
+}
+.page header h4 {
+  margin: 0 auto;
+  padding: 20px 0;
+  display: block;
+  max-width: max-content;
+  color: #0A8ECB;
+  font-size: 24px;
+  font-weight: 900;
+}
+.page header .logo .img-1 {
+  width: 200px;
+  position: absolute;
+  right: 30px;
+  top: 145px;
+}
+.page header .logo .img-2 {
+  width: 110px;
+  position: absolute;
+  right: 90px;
+  top: 40px;
+}
+.page header .content {
+  height: 190px;
+  max-width: 700px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  overflow: hidden;
+}
+.page header .content .data {
+  width: 700px;
+  height: 25px;
+  font-size: 18px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.page header .content .data:last-child {
+  width: 700px;
+  height: 80px;
+  font-size: 18px;
+  line-height: 20px;
+  overflow: hidden;
+}
+.page header .content .data span {
+  font-weight: 700
+}
+.page header .content .data .span-2 {
+  margin-left: 50px;
+}
+
+
+/* // BOODY // */
+.page .boody {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.page .boody .clinics {
+  position: absolute;
+  top: 180px;
+  right: 70px;
+  letter-spacing: 3px;
+  color: #FFB82F;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.page .boody .clinics::after {
+  content: '';
+  height: 12px;
+  width: 850px;
+  top: 3px;
+  right: 110px;
+  background-color: #FFB82F;
+  position: absolute;
+}
+.page .boody .clinics::before {
+  content: '';
+  height: 12px;
+  width: 65px;
+  top: 3px;
+  left: 100px;
+  background-color: #FFB82F;
+  position: absolute;
+}
+.page .boody .b-content {
+  max-height: 800px;
+  max-width: 100%;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  overflow: hidden;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/* // FOOTER // */
+.page .footer {
+  position: relative;
+  top: calc(100% - 380px);
+  left: 0;
+  width: 100%;
+  height: 200px;
+}
+.page .footer .footer-logo img {
+  position: absolute;
+  top: -48px;
+  left: -75px;
+  width: 65%;
+}
+.page .footer .content {
+  width: 40%;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  padding: 15px;
+}
+.page .footer .content::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: 0;
+  height: 8px;
+  width: 100%;
+  background-color: #FFB82F;
+}
+.page .footer .content .f-data {
+  display: flex;
+  margin-top: 15px;
+  font-size: 18px;
+  margin: 0;
+  color: #0A8ECB;
+}
+.page .footer .content .f-data i {
+  font-size: 18px;
+}
+.page .footer .content .social {
+  justify-content: space-between;
+}
+.page .footer .content .whats {
+  justify-content: center;
+}
+.page .footer .content .address {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: black;
+}
+}
+</style>
+
+
+<div id="print-section">
+<div class="page">
+  <header>
+    <h4>
+      عيادات تالا التخصصية
+    </h4>
+    <div class="row">
+      <div class="logo">
+        <img class="img-1" src="./../../../../assets/images/1.png" alt="">
+        <img class="img-2" src="./../../../../assets/images/2.png" alt="">
+      </div>
+      <div class="content">
+        <div class="data">
+          <p class="doc-name">
+            <span>
+              Doctor's name /
+            </span>
+            maged mohamed elhabrouk mohamed
+          </p>
+        </div>
+
+        <div class="data">
+          <p class="pt-name">
+            <span>
+              Pt.Name /
+            </span>
+            maged mohamed elhabrouk mohamed
+          </p>
+        </div>
+
+        <div class="data">
+          <p class="date">
+            <span>
+              Date /
+            </span>
+            20/11/2022
+          </p>
+        </div>
+
+        <div class="data">
+          <p class="age-weight">
+            <span>
+              Age /
+            </span>
+            36
+            <span class="span-2">
+              Weight /
+            </span>
+            90kg
+          </p>
+        </div>
+
+        <div class="data">
+          <p class="hight">
+            <span>
+              Hight /
+            </span>
+            172cm
+            <span class="span-2">
+              BMI /
+            </span>
+            madsfda asfasdf
+          </p>
+        </div>
+
+        <div class="data">
+          <p class="hight">
+            <span>
+              Diagnosis /
+            </span>
+            madsfda asfasdf madsfda asfasdf madsfda asfasdf madsfda asfasdf madsfda asfasdf madsfda asfasdf madsfda asfasdf madsfda
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="boody">
+    <div class="clinics">CLINICS</div>
+    <div class="b-content">
+      العنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصر العنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصر العنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصر العنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصرالعنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصر
+    </div>
+  </section>
+  <div class="footer">
+    <div class="footer-logo">
+      <img src="./../../../../assets/images/3.png" alt="">
+    </div>
+
+    <div class="content">
+      <div class="address f-data" dir="rtl" style="text-align: right;">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>
+          العنوان: دمنهور ش عبدالسلام الشاذلي ابراج ساج بلازا امام النادي الاجتماعي اعلي بنك مصر
+        </p>
+      </div>
+
+      <div class="phone f-data" dir="ltr">
+        <p>
+          <i class="fas fa-phone"></i>
+          Phone : 01555181614  /  0453149029
+        </p>
+      </div>
+
+      <div class="email f-data" dir="ltr">
+        <p>
+          <i class="fa fa-envelope"></i>
+          E.mail/ tarekabouollo@hotmail.com
+        </p>
+      </div>
+
+      <div class="social f-data" dir="ltr">
+        <p>
+          <i class="fab fa-facebook"></i>
+          @talaclinics
+        </p>
+        <p>
+          <i class="fab fa-instagram"></i>
+          tala.clinics
+        </p>
+      </div>
+
+      <div class="whats f-data" dir="ltr">
+        <p>
+          <i class="fab fa-whatsapp-square"></i>
+          01555181614
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<button class="btn btn-primary" printSectionId="print-section" [useExistingCss]="true" ngxPrint>print</button>
